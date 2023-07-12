@@ -34,7 +34,7 @@ const Nav = () => {
 					Learn
 				</h1>
 				<ul className="navigation" id="navigation">
-					<Link to="/" onClick={() => setCurrPage("home")}>
+					<Link to="/home" onClick={() => setCurrPage("home")}>
 						<li id="home">Home</li>
 					</Link>
 					<Link to="/courses" onClick={() => setCurrPage("courses")}>
