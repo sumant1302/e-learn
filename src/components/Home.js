@@ -9,7 +9,7 @@ const Home = () => {
 		<>
 			<div className="home-main">
 				<div className="home-main-img">
-					<img src="/images/eLearn-bg.jpeg" alt="eLearn Home" />
+					<img src={process.env.PUBLIC_URL + "/images/eLearn-bg.jpeg"} alt="eLearn Home" />
 				</div>
 				<input className="home-search"
 					type="search"
