@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +32,201 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav {
+  display: flex;
+  width: 100%; 
+  position: relative;
+  background-color: #61dafb;
+  color: white;
+}
+nav h1 {
+  padding-left: 20px;
+}
+
+nav ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  text-decoration: none;
+  width: 60%;
+  position: absolute;
+  right: 10px;
+  margin: 0;
+}
+.navigation a{
+  display: flex;
+  margin-left: 10%;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.navigation a:hover{
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+.navigation a:active{
+  font-size: 1.2rem;  
+  color: orange;
+}
+a{
+  text-decoration: none;
+}
+
+/* Home */
+.home-main {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.home-main-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-main-img img {
+  max-height: 500px;
+  width: 100%;
+}
+.home-search {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  line-height: 30px;
+  width: 30%;
+  padding: 2px;
+  font-size: 1.1rem;
+  z-index: 1;
+  border-radius: 15px;
+}
+.featured-home-card {
+  height: 200px;
+  width: 250px;
+  margin: 3%;
+  border:1px #282c34 solid;
+}
+
+/* Courses styling */
+.courses {
+  display: flex;
+}
+.courses-left {
+  width: 20%;
+}
+.courses-left p{
+  padding-left: 10px;
+  cursor: pointer;
+}
+/* Indiv course */
+.course {
+  margin: 20px;
+  width: fit-content;
+  border: 2px black solid;
+}
+/* Login */
+.login {
+  display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+}
+.log-form {
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.log-email , .log-pass{
+  line-height: 30px;
+  margin: 1%;
+  width: 50%;
+}
+.log-pass{
+
+}
+.login-button {
+  line-height: 30px;
+  margin: 1%;
+  width: 30%;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(16, 126, 243);
+  color: white;
+  border-radius: 5px;
+}
+.login-button:hover {
+  border: 1px black solid;
+}
+/* Register */
+.regsiter {
+  display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+}
+.reg-form {
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.reg-email , .reg-pass, .reg-name{
+  line-height: 30px;
+  margin: 1%;
+  width: 50%;
+}
+.reg-button {
+  line-height: 30px;
+  margin: 1%;
+  width: 30%;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(16, 126, 243);
+  color: white;
+  border-radius: 5px;
+}
+.reg-button:hover {
+  border: 1px black solid;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #c0c1c4;
+}
+div.footer-main {
+  display: flex;
+  width: 100%;
+}
+.footer-main > div {
+  width: 33%;
+}
+footer ul{
+  list-style: none;
+}
+.footer-copyright {
+  width:100%;
+  text-align: center;
+  
 }
